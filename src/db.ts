@@ -2,7 +2,7 @@ import { MongoClient, Db } from "mongodb";
 
 const uri = "mongodb://localhost:27017";
 const client = new MongoClient(uri);
-const dbName = "node_assignment";
+const dbName = "nodeassignmentswift";
 
 let db: Db | null = null;
 
